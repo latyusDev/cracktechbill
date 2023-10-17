@@ -219,6 +219,17 @@ header a:hover{
     font-weight: 600;
 
 }
+
+#automated_services .platform button:hover{
+    background-color: #ffffff ;
+    color:#0d47a1;
+    border: 2px solid currentColor;
+    transition:0.5s;
+}
+#automated_services .platform button:hover a{
+    color: currentColor;
+}
+
 #automated_services .platform h1{
 
     font-size: 2.4rem;
@@ -436,6 +447,11 @@ header a:hover{
     margin-top: 2rem;
 }
 
+#agent .entrepreneur .agent_btn:hover{
+    background-image: conic-gradient( #0d47a1 30%,#407cd6 20%, #08306d 50% );
+
+}
+
 #agent .agent_image{
     flex-basis: 45%;
     height: 500px;
@@ -485,6 +501,23 @@ header a:hover{
 #section4 #data_plan .plan:hover{
     box-shadow: 1px 1px 20px #ccc;
     
+}
+
+/* #section1 .btn_container button:last-child:hover a{
+    color: #0d47a1;
+  
+} */
+
+#section4 #data_plan .plan:hover button{
+    color: #0d47a1;
+    background-color:white ;
+    border: 2px solid currentColor;
+    transition: 0.5s;
+}
+
+#section4 #data_plan .plan:hover a{
+    color: #0d47a1;
+
 }
 
 #data_plan .plan img{
